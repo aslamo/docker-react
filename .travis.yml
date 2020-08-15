@@ -5,4 +5,4 @@ services:
 before-install:
     - docker build -t aslam/docker-react -f Dockerfile.dev .
 script:
-    - docker run -e CI=true USERNAME/docker-react npm run test
+    - docker run -e CI=true aslam/docker-react npm run test
