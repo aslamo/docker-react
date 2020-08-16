@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> ohh shut up
+          This text was changes using a git branch, merged to master
         </p>
         <a
           className="App-link"
